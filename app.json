@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/teams/teams"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#a9b7b7",
+    "borderStyle": "white",
+    "backgroundColor": "#EEEEEE",
+    "list": [
+      {
+        "selectedIconPath":"pages/images/teams_info.png",
+        "iconPath": "pages/images/teams_info.png",
+        "pagePath": "pages/teams/teams",
+        "text": "队伍资讯"
+      },
+      {
+        "selectedIconPath":"pages/images/create_team.png",
+        "iconPath": "pages/images/create_team.png",
+        "pagePath": "pages/index/index",
+        "text": "创建队伍"
+      },
+      {
+        "selectedIconPath":"pages/images/personal_info.png",
+        "iconPath": "pages/images/personal_info.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
+  }
+}
